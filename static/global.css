@@ -1,0 +1,72 @@
+
+#pagamento-busca { margin-top: 2rem; }
+
+.pagamento-resultado {
+    display: none;
+    margin-top: 1.5rem;
+}
+.pagamento-resultado.visivel { display: block; }
+
+.pagamento-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1.5rem;
+    margin: 1rem 0;
+    text-align: left;
+}
+.pagamento-info-grid .label {
+    font-size: 0.75rem;
+    color: #90a4ae;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.pagamento-info-grid .valor {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #eceff1;
+}
+
+.pagamento-total {
+    border-top: 1px solid #546e7a;
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+}
+.pagamento-total .valor-total {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #80cbc4;
+}
+
+.pagamento-erro {
+    display: none;
+    color: #ef9a9a;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+}
+.pagamento-erro.visivel { display: block; }
+
+.chip-status {
+    display: inline-block;
+    padding: 2px 12px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    background: #26a69a;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+#pagamento-confirmacao {
+    display: none;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    background: #1b5e20;
+    color: #c8e6c9;
+    text-align: center;
+}
+#pagamento-confirmacao.visivel { display: block; }
+#pagamento-confirmacao .material-icons {
+    font-size: 3rem;
+    color: #69f0ae;
+}

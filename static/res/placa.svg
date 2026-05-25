@@ -1,0 +1,47 @@
+<svg width="100mm" height="35.12867mm" viewBox="0 0 100 35.12867" version="1.1" id="placa"
+                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <g id="placa:placa" transform="translate(-33.466544,-104.25574)">
+                        <g id="placa:placa:placa-mercosul" transform="matrix(0.31035822,0,0,0.31035822,23.079927,71.899114)">
+                            <path id="placa:placa:placa-mercosul:moldura"
+                                d="M 46.404044,109.25574 H 342.73736 a 7.9375,7.9375 0 0 1 7.9375,7.9375 v 87.3125 a 7.9375,7.9375 0 0 1 -7.9375,7.9375 H 46.404044 a 7.9375,7.9375 0 0 1 -7.9375,-7.9375 v -87.3125 a 7.9375,7.9375 0 0 1 7.9375,-7.9375 z"
+                                style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-dasharray:none;stroke-opacity:1" />
+                            <g id="placa:placa:placa-mercosul:conteudo" transform="translate(35.8207,18.900531)">
+                                <path style="fill:#e6e6e6;fill-opacity:1;stroke-width:1"
+                                    d="m 2.6458333,121.04687 v 61.9125 A 10.583333,10.583333 0 0 0 13.229167,193.54271 H 304.27083 a 10.583333,10.583333 0 0 0 10.58334,-10.58334 v -61.9125 z" />
+                                <g>
+                                    <text xml:space="preserve"
+                                        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:18.1869px;font-family:'Gill Sans Std',sans-serif;opacity:0.988131;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:32.2207"
+                                        x="6.8490562" y="146.45493" transform="scale(0.77102935,1.2969675)">
+                                        <tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:18.1869px;font-family:'Gill Sans Std',sans-serif;fill:#1a1a1a;stroke-width:32.2207"
+                                            x="6.8490562" y="146.45493">BR</tspan>
+                                    </text>
+                                </g>
+                                <g>
+                                    <path style="fill:#0e4ab9;fill-opacity:1;stroke-width:1"
+                                        d="M 13.229167,90.355208 A 10.583333,10.583333 0 0 0 2.6458333,100.93854 v 20.10833 H 314.85417 V 100.93854 A 10.583333,10.583333 0 0 0 304.27083,90.355208 Z" />
+                                    <g transform="translate(-0.15089071,37.274889)">
+                                        <path d="m 284.60708,61.075516 h 19.05 a 2.38125,2.38125 45 0 1 2.38125,2.38125 V 77.2151 a 2.38125,2.38125 135 0 1 -2.38125,2.38125 h -19.05 A 2.38125,2.38125 45 0 1 282.22583,77.2151 V 63.456766 a 2.38125,2.38125 135 0 1 2.38125,-2.38125 z"
+                                            style="fill:#0a9d3a;fill-opacity:1;stroke-width:1" />
+                                        <g transform="translate(-1e-5,-0.00668417)">
+                                            <path style="fill:#eed23b;fill-opacity:1;stroke-width:1"
+                                                d="m 293.48435,64.444726 -7.96496,5.641703 a 0.54409647,0.54409647 89.119205 0 0 0.0138,0.897458 l 7.93738,5.263381 a 1.1970044,1.1970044 0 0 0 1.32304,0 l 7.93738,-5.263381 a 0.54409647,0.54409647 90.880795 0 0 0.0138,-0.897458 l -7.96496,-5.641703 a 1.1206182,1.1206182 0 0 0 -1.29546,0 z" />
+                                            <circle style="fill:#233d97;fill-opacity:1;stroke-width:0.999999" cx="294.13208" cy="70.342621" r="4.2333331" />
+                                        </g>
+                                    </g>
+                                    <text xml:space="preserve"
+                                        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:18.1869px;font-family:'Gill Sans Std',sans-serif;opacity:0.988131;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:32.2208"
+                                        x="132.16985" y="111.91187">
+                                        <tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:18.1869px;font-family:'Gill Sans Std',sans-serif;stroke-width:32.2208"
+                                            x="132.16985" y="111.91187">BRASIL</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="placa:placa:texto" xml:space="preserve"
+                            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6389px;font-family:FE-Font,sans-serif;fill:#1a1a1a;stroke:none;stroke-width:10"
+                            x="43.80547" y="132.41222">
+                            <tspan style="font-size:17.6389px;font-family:FE-Font,sans-serif;stroke:none;stroke-width:10"
+                                x="43.80547" y="132.41222">OHG8349</tspan>
+                        </text>
+                    </g>
+                </svg>

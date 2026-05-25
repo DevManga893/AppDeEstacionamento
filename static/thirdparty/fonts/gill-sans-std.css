@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'Gill Sans Std';
+    src: url('./gill-sans-std-bold-condensed.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: condensed;
+    font-display: swap;
+}

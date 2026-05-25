@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./thirdparty/pyscript/core.css">
+        <link rel="stylesheet" href="./thirdparty/fonts/Material Icons.css">
+        <link rel="stylesheet" href="./thirdparty/materialize/css/materialize.css">
+        <link rel="stylesheet" href="./thirdparty/fonts/fe-font.css">
+        <link rel="stylesheet" href="./thirdparty/fonts/gill-sans-std.css">
+
+        <link rel="stylesheet" href="./global.css">
+
+        <script src="./mini-coi-fd.js"></script>
+        <script type="module" src="./thirdparty/pyscript/core.js"></script>
+        <script src="./thirdparty/materialize/js/materialize.js"></script>
+    </head>
+    <body>
+        <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Estacionamento SA</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+        <div class="nav-content">
+            <ul class="tabs tabs-transparent">
+                <li class="tab"><a class="active" href="#registrar-veiculo">Registro de Veículo</a></li>
+                <li class="tab"><a href="#pagamento">Pagamento</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#registrar-veiculo">Registrar Veículo</a></li>
+        <li><a href="#pagamento">Pagamento</a></li>
+    </ul>
+
+    <!-- ABA 1 - REGISTRO -->
+    <div id="registrar-veiculo" class="col s12">
+        <div class="center-align">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+                <span class="card-title">Registro de Veículo</span>
+                <p id="descricao">Honda - Azul - ABC12345</p>
+            </div>
+            <div class="card-content">
+                <svg width="100mm" height="35.12867mm" viewBox="0 0 100 35.12867" version="1.1" id="placa"
+                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <g id="placa:placa" transform="translate(-33.466544,-104.25574)">
+                        <g id="placa:placa:placa-mercosul" transform="matrix(0.31035822,0,0,0.31035822,23.079927,71.899114)">
+                            <path id="placa:placa:placa-mercosul:moldura"
+                                d="M 46.404044,109.25574 H 342.73736 a 7.9375,7.9375 0 0 1 7.9375,7.9375 v 87.3125 a 7.9375,7.9375 0 0 1 -7.9375,7.9375 H 46.404044 a 7.9375,7.9375 0 0 1 -7.9375,-7.9375 v -87.3125 a 7.9375,7.9375 0 0 1 7.9375,-7.9375 z"
+                                style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-dasharray:none;stroke-opacity:1" />
+                            <g id="placa:placa:placa-mercosul:conteudo" transform="translate(35.8207,18.900531)">
+                                <path style="fill:#e6e6e6;fill-opacity:1;stroke-width:1"
+                                    d="m 2.6458333,121.04687 v 61.9125 A 10.583333,10.583333 0 0 0 13.229167,193.54271 H 304.27083 a 10.583333,10.583333 0 0 0 10.58334,-10.58334 v -61.9125 z" />
+                                <g>
+                                    <text xml:space="preserve"
+                                        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:18.1869px;font-family:'Gill Sans Std',sans-serif;opacity:0.988131;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:32.2207"
+                                        x="6.8490562" y="146.45493" transform="scale(0.77102935,1.2969675)">
+                                        <tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:18.1869px;font-family:'Gill Sans Std',sans-serif;fill:#1a1a1a;stroke-width:32.2207"
+                                            x="6.8490562" y="146.45493">BR</tspan>
+                                    </text>
+                                </g>
+                                <g>
+                                    <path style="fill:#0e4ab9;fill-opacity:1;stroke-width:1"
+                                        d="M 13.229167,90.355208 A 10.583333,10.583333 0 0 0 2.6458333,100.93854 v 20.10833 H 314.85417 V 100.93854 A 10.583333,10.583333 0 0 0 304.27083,90.355208 Z" />
+                                    <g transform="translate(-0.15089071,37.274889)">
+                                        <path d="m 284.60708,61.075516 h 19.05 a 2.38125,2.38125 45 0 1 2.38125,2.38125 V 77.2151 a 2.38125,2.38125 135 0 1 -2.38125,2.38125 h -19.05 A 2.38125,2.38125 45 0 1 282.22583,77.2151 V 63.456766 a 2.38125,2.38125 135 0 1 2.38125,-2.38125 z"
+                                            style="fill:#0a9d3a;fill-opacity:1;stroke-width:1" />
+                                        <g transform="translate(-1e-5,-0.00668417)">
+                                            <path style="fill:#eed23b;fill-opacity:1;stroke-width:1"
+                                                d="m 293.48435,64.444726 -7.96496,5.641703 a 0.54409647,0.54409647 89.119205 0 0 0.0138,0.897458 l 7.93738,5.263381 a 1.1970044,1.1970044 0 0 0 1.32304,0 l 7.93738,-5.263381 a 0.54409647,0.54409647 90.880795 0 0 0.0138,-0.897458 l -7.96496,-5.641703 a 1.1206182,1.1206182 0 0 0 -1.29546,0 z" />
+                                            <circle style="fill:#233d97;fill-opacity:1;stroke-width:0.999999" cx="294.13208" cy="70.342621" r="4.2333331" />
+                                        </g>
+                                    </g>
+                                    <text xml:space="preserve"
+                                        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:18.1869px;font-family:'Gill Sans Std',sans-serif;opacity:0.988131;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:32.2208"
+                                        x="132.16985" y="111.91187">
+                                        <tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:18.1869px;font-family:'Gill Sans Std',sans-serif;stroke-width:32.2208"
+                                            x="132.16985" y="111.91187">BRASIL</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="placa:placa:texto" xml:space="preserve"
+                            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6389px;font-family:FE-Font,sans-serif;fill:#1a1a1a;stroke:none;stroke-width:10"
+                            x="43.80547" y="132.41222">
+                            <tspan style="font-size:17.6389px;font-family:FE-Font,sans-serif;stroke:none;stroke-width:10"
+                                x="43.80547" y="132.41222">OHG8349</tspan>
+                        </text>
+                    </g>
+                </svg>
+            </div>
+            <div class="card-action">
+                <div class="input-field col s6">
+                    <input placeholder="(ex:. OLA-1432)" id="placa-input" type="text" class="validate">
+                    <label for="placa-input">Placa</label>
+                </div>
+                <div class="input-field col s12">
+                    <select id="marca-selector">
+                        <option value="BMW">BMW</option>
+                        <option value="BYD">BYD</option>
+                        <option value="Kwid">Kwid</option>
+                        <option value="Ferrari">Ferrari</option>
+                        <option value="Fiat">Fiat</option>
+                        <option value="Honda" selected>Honda</option>
+                        <option value="Xiaomi">Xiaomi</option>
+                        <option value="Smart">Smart</option>
+                        <option value="Outra">Outra</option>
+                    </select>
+                    <label>Marca</label>
+                </div>
+                <div class="input-field col s12">
+                    <select id="cor-selector">
+                        <option value="Branco">Branco</option>
+                        <option value="Preto">Preto</option>
+                        <option value="Prata">Prata</option>
+                        <option value="Azul" selected>Azul</option>
+                        <option value="Vermelho">Vermelho</option>
+                        <option value="Cinza">Cinza</option>
+                        <option value="Outra">Outra</option>
+                    </select>
+                    <label>Cor</label>
+                </div>
+
+                <a href="#" id="btn-registrar" class="waves-effect waves-light btn teal darken-1" style="margin-top:1rem">
+                    <i class="material-icons left">directions_car</i>Registrar Veículo
+                </a>
+                <p id="registro-feedback" style="color:#80cbc4;margin-top:0.5rem;display:none"></p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- ABA 2 - PAGAMENTO -->
+    <div id="pagamento" class="col s12">
+        <div class="center-align">
+        <div class="card blue-grey darken-1" id="pagamento-busca">
+            <div class="card-content white-text">
+                <span class="card-title">Pagamento</span>
+                <p class="grey-text text-lighten-1">Informe a placa para calcular o valor</p>
+
+                <div class="input-field" style="margin-top:1.5rem">
+                    <input id="pagamento-placa-input" type="text" class="validate white-text">
+                    <label for="pagamento-placa-input">Placa do Veículo</label>
+                </div>
+
+                <a href="#" id="btn-buscar" class="waves-effect waves-light btn teal darken-1">
+                    <i class="material-icons left">search</i>Buscar
+                </a>
+
+                <p id="pagamento-erro" class="pagamento-erro">
+                    <i class="material-icons tiny">error_outline</i>
+                    <span id="pagamento-erro-texto">Veículo não encontrado. Verifique a placa e tente novamente.</span>
+                </p>
+            </div>
+
+            <!-- Resultado da busca -->
+            <div id="pagamento-resultado" class="card-content pagamento-resultado">
+                <span class="chip-status">● Em estacionamento</span>
+                <div class="pagamento-info-grid">
+                    <div>
+                        <div class="label">Placa</div>
+                        <div class="valor" id="pag-placa">—</div>
+                    </div>
+                    <div>
+                        <div class="label">Marca</div>
+                        <div class="valor" id="pag-marca">—</div>
+                    </div>
+                    <div>
+                        <div class="label">Cor</div>
+                        <div class="valor" id="pag-cor">—</div>
+                    </div>
+                    <div>
+                        <div class="label">Entrada</div>
+                        <div class="valor" id="pag-entrada">—</div>
+                    </div>
+                    <div>
+                        <div class="label">Tempo</div>
+                        <div class="valor" id="pag-tempo">—</div>
+                    </div>
+                    <div>
+                        <div class="label">Tarifa</div>
+                        <div class="valor">R$ 5,00 / hora</div>
+                    </div>
+                </div>
+
+                <div class="pagamento-total white-text">
+                    <div class="label" style="color:#90a4ae;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em">Total a pagar</div>
+                    <div class="valor-total" id="pag-total">R$ 0,00</div>
+                </div>
+
+                <div style="margin-top:1.5rem">
+                    <a href="#" id="btn-pagar" class="waves-effect waves-light btn teal darken-1">
+                        <i class="material-icons left">payment</i>Confirmar Pagamento
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Confirmação de pagamento -->
+        <div id="pagamento-confirmacao">
+            <i class="material-icons">check_circle</i>
+            <h5>Pagamento Confirmado!</h5>
+            <p id="pag-confirmacao-texto">Veículo liberado com sucesso.</p>
+            <a href="#" id="btn-novo-pagamento" class="waves-effect waves-light btn-flat white-text" style="margin-top:1rem;text-decoration:underline">
+                Novo pagamento
+            </a>
+        </div>
+        </div>
+    </div>
+
+        <script defer>M.AutoInit();</script>
+        <script defer type="py" src="main.py" config="pyscript.toml"></script>
+    </body>
+</html>
