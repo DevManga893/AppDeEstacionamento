@@ -1,24 +1,25 @@
 import argparse
+import sys
 from os import system
 from pathlib import Path
 
 VENV = Path(".venv")
-PIP = VENV / "bin" / "pip"
-PYTHON = VENV / "bin" / "python"
-FASTAPI = VENV / "bin" / "fastapi"
+
+BIN = VENV / ("Scripts" if sys.platform == "win32" else "bin")
+PYTHON = BIN / "python"
 
 def setup():
     if not VENV.exists():
         system("python -m venv .venv")
 
-    system(f"{PIP} install -r requirements.txt")
-    system(f"{PIP} install -e package/sistema")
+    system(f"{PYTHON} -m pip install -r requirements.txt")
+    system(f"{PYTHON} -m pip install -e package/sistema")
 
 def build():
     system(f"{PYTHON} -m build package/sistema -o static/packages")
 
 def run():
-    system(f"{FASTAPI} dev")
+    system(f"{PYTHON} -m fastapi dev")
 
 def all_targets():
     setup()

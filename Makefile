@@ -1,20 +1,24 @@
 VENV = .venv
-PYTHON = $(VENV)/bin/python
-PIP = $(VENV)/bin/pip
+
+ifeq ($(OS),Windows_NT)
+    PYTHON = $(VENV)/Scripts/python
+else
+    PYTHON = $(VENV)/bin/python
+endif
 
 .PHONY: all setup build run
 
 all: setup build run
 
 setup: $(VENV)
-	$(PIP) install -r requirements.txt
-	$(PIP) install -e package/sistema
+	$(PYTHON) -m pip install -r requirements.txt
+	$(PYTHON) -m pip install -e package/sistema
 
 build:
 	$(PYTHON) -m build package/sistema -o static/packages
 
 run:
-	$(VENV)/bin/fastapi dev
+	$(PYTHON) -m fastapi dev
 
 $(VENV):
 	python -m venv $(VENV)
