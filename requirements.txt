@@ -2,4 +2,3 @@ fastapi[standard]
 pydantic
 tinydb
 build
-venv
