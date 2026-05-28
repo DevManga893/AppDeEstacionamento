@@ -7,3 +7,5 @@ Um sistema básico para controlar pagamentos e vagas disponíveis.
 - Inaldo Neto
 - Gustavo Henrique Mendes
 - Lucas da Silva Soares
+### Como Executar:
+Rodar o arquivo run.py
